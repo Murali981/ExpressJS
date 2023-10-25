@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    height:100vh;
+    width:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    height:40%;
+    width:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.heading{
+    padding:40px;
+    display:inline-block;
+}
+
+input{
+    output:none;
+    padding:10px 20px;
+}
+
+.btn{
+    height:40px;
+    padding: 10px 25px;
+    border-radius:10px;
+    border:0px;
+    color:rgb(44,44,44);
+    box-sizing:border-box;
+    background-color: black;
+    color:white;
+}
